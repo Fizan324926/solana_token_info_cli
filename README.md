@@ -54,26 +54,26 @@ After building, you can run the tool with various command-line options:
 
 ### Fetch metadata for a single token:
 ```sh
-./target/release/solana-token-fetcher -t YourTokenAddressHere
+./target/release/solana_token_info_cli -t YourTokenAddressHere
 ```
 
 ### Fetch metadata for multiple tokens:
 ```sh
-./target/release/solana-token-fetcher -t Token1 Token2 Token3
+./target/release/solana_token_info_cli -t Token1 Token2 Token3
 ```
 ### Use a proxy server:
 ```sh
-./target/release/solana-token-fetcher -t YourTokenAddressHere -p http://yourproxy.com:8080
+./target/release/solana_token_info_cli -t YourTokenAddressHere -p http://yourproxy.com:8080
 ```
 ### Read tokens from a file:
 ```sh
-./target/release/solana-token-fetcher -tf tokens.txt
+./target/release/solana_token_info_cli -tf tokens.txt
 ```
 ### Enable verbose output:
 ```sh
-./target/release/solana-token-fetcher -t YourTokenAddressHere -v
+./target/release/solana_token_info_cli -t YourTokenAddressHere -v
 ```
 ### Specify the number of threads:
 ```sh
-./target/release/solana-token-fetcher -t YourTokenAddressHere -n 8
+./target/release/solana_token_info_cli -t YourTokenAddressHere -n 8
 ```
