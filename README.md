@@ -1,4 +1,3 @@
-# solana_token_info_cli
 # Solana Token Metadata Fetcher
 
 This Rust-based command-line tool fetches metadata for Solana tokens using the Solana Explorer API. It supports various options like verbosity, proxy usage, and multithreading, allowing efficient and customizable metadata retrieval.
@@ -9,6 +8,8 @@ This Rust-based command-line tool fetches metadata for Solana tokens using the S
 - Configurable verbosity for detailed output.
 - Option to read token addresses from a file.
 - Multithreaded processing for faster performance.
+
+![Example Image](demo\demo.png)
 
 ## Prerequisites
 - [Rust](https://www.rust-lang.org/tools/install) (Ensure Rust and Cargo are installed on your system)
