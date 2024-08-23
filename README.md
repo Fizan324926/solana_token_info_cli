@@ -53,9 +53,7 @@ After building, you can run the tool with various command-line options:
 ## Examples
 
 ### Fetch metadata for a single token:
-```sh
-cd target/release
-```
+
 ```sh
 ./target/release/solana_token_info_cli -t YourTokenAddressHere
 ```
