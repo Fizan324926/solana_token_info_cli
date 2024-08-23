@@ -9,7 +9,7 @@ This Rust-based command-line tool fetches metadata for Solana tokens using the S
 - Option to read token addresses from a file.
 - Multithreaded processing for faster performance.
 
-![Example Image](demo\demo.png)
+![Example Image](demo/demo.png)
 
 ## Prerequisites
 - [Rust](https://www.rust-lang.org/tools/install) (Ensure Rust and Cargo are installed on your system)
